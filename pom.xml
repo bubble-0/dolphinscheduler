@@ -93,6 +93,9 @@
 
         <python.sign.skip>true</python.sign.skip>
         <skipDepCheck>true</skipDepCheck>
+
+        <maven.test.skip>true</maven.test.skip>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
     </properties>
 
     <dependencyManagement>
@@ -786,4 +789,5 @@
             </properties>
         </profile>
     </profiles>
+
 </project>
